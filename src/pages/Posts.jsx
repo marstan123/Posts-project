@@ -19,7 +19,7 @@ import { getPageCount, getPagesArray } from './utils/pages';
 import Pagination from './components/UI/Pagination/Pagination';
 
 
-function App() {
+function Posts() {
   const [posts, setPosts] = useState([
     // {id: 1, title: 'JavaScript', body: 'Description'},
     // {id: 2, title: 'JavaScript 2', body: 'Description'},
@@ -80,4 +80,4 @@ function App() {
   );
 }
 
-export default App;
+export default Posts;
